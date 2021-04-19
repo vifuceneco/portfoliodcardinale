@@ -3,7 +3,7 @@ body {
     padding-right: 180px;
 }
 
-.imagen img {
+.image img {
     width: auto;
     height: 617px;
   }
@@ -64,7 +64,7 @@ button {
     border: solid 0px;
 }
 
-span {
+.home .intro h2 span {
     font-weight: bold;
     display: block;
 }
@@ -73,6 +73,75 @@ p {
     padding-bottom: 20px;
 }
 
+.aboutme {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 180px;
 
+}
 
+.description {
+    padding-right: 30px;
+}
 
+.description h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.skill-bar {
+    padding-left: 30px;
+}
+
+.skill-bar h2 {
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+.belbin {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.hobbies {
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.hobbies h2 {
+    padding-bottom: 50px;
+}
+
+.img-hobbies {
+    display:flex;
+    justify-content: space-between;
+}
+
+.img-hobbies img {
+    width: 160px;
+    height: auto;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .redes img {
+    margin: 0 10px;
+    width: 35px;
+    height: auto;
+}
+
+.hr-footer {
+    width: auto;
+    color:#df69b9;
+    border: 5px;
+}
