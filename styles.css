@@ -188,6 +188,35 @@ footer .redes img {
   border: 5px;
 }
 
+.aditional-images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 40px;
+}
+
+.aditional-images img {
+  max-width: 540px;
+  min-width: auto;
+  max-height: auto;
+  min-height: auto;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.aditional-images img:active {
+  opacity: 0.5;
+}
+
+.aditional-images img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .container .row.row-cols-2 {
   padding-top: 135px;
 }

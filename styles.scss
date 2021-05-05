@@ -169,6 +169,33 @@ footer {
     border: 5px;
 }
 
+// .carousel.slide.carousel-fade {
+//     img {
+//         max-width: 700px;
+//         min-width: auto;
+//     }
+//     button {
+//         display:block;
+//     }
+// }
+.aditional-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 40px;
+    img {
+        max-width: 540px;
+        min-width: auto;
+        max-height: auto;
+        min-height: auto;
+        transition: transform 1s;
+        }
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
 .container {
     .row.row-cols-2 {
         padding-top: 135px;
